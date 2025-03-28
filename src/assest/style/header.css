@@ -1,0 +1,13 @@
+.full-width-div {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  height: 10%;
+}
+
+.icon {
+  margin: 50px;
+}
