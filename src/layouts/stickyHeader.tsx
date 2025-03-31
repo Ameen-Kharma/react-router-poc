@@ -1,24 +1,27 @@
 import { useState } from "react";
 import "../assest/style/header.css";
+import { Link } from "react-router";
+import { Button } from "react-bootstrap";
 
 const StickyHeader: React.FC = () => {
   return (
     <div className="sticky-header">
       <ul>
         <li>
-          <a href="#home">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#news">News</a>
+          <Link to="/News">News</Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link to="/Contact">Contact</Link>
         </li>
         <li>
-          <a href="#about">About</a>
+          <Link to="/About">About</Link>
         </li>
       </ul>
       <input type="text" value={"text"} />
+      <Button> click me !</Button>
     </div>
   );
 };
